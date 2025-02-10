@@ -5,7 +5,7 @@ This is a decomp of pokemon emerald including elements and expansions that I wan
 
 Below is information from the work I pulled.
 
-# Source
+# Sources
 ```
 Based off RHH's pokeemerald-expansion 1.10.2 https://github.com/rh-hideout/pokeemerald-expansion/
 Elements from Ghoulslash's pokeemerald decomp https://github.com/ghoulslash/pokeemerald/
