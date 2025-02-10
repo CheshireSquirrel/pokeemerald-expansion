@@ -1,33 +1,20 @@
-# pokeemerald-expansion
+# myemerald-romhack
 
-pokeemerald-expansion is ***a romhack base*** based off pret's [pokeemerald](https://github.com/pret/pokeemerald) decompilation project. ***It is NOT a playable romhack,*** but it has multiple features available to romhackers so that they can create their own games, so it's not meant to be played on its own.
+This is a decomp of pokemon emerald including elements and expansions that I want to include. Much of it is a WIP, but I am slowly working on it. This is heavily based on other's work, pulled from DizzyEgg, Lunos, Ghoulslash, and others, because I do not have the coding know-how to do it myself. 
 
-## Should I use this or vanilla pokeemerald for my hack?
-The main advantage of using vanilla pokeemerald as a base is being able to link with other official GBA Pokémon games for battles and trading, pokeemerald-expansion can battle and trade with itself out of the box. If you don't mind losing full vanilla compatiblitity, we recommend using pokeemerald-expansion. Otherwise, use pret's pokeemerald. You'll still receive documentation improvements from pret, as we regurlarly incorporate pret's documentation changes.
 
-## Using pokeemerald-expansion
+Below is information from the work I pulled.
 
-If you use pokeemerald-expansion in your hack, please add RHH (Rom Hacking Hideout) to your credits list. Optionally, you can list the version used, so it can help players know what features to expect.
-You can phrase it as the following:
+# Source
 ```
 Based off RHH's pokeemerald-expansion 1.10.2 https://github.com/rh-hideout/pokeemerald-expansion/
+Elements from Ghoulslash's pokeemerald decomp https://github.com/ghoulslash/pokeemerald/
 ```
-
-#### Important: DO NOT use GitHub's "Download Zip" option. Using this option will not download the commit history required to update your expansion version or merge other feature branches. Instead, please read [this guide](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) to learn how to fork the repository and clone locally from there.
-
-Please follow the instructions in `INSTALL.md` to get pokeemerald-expansion set up on your machine.
-
-### If I already have a project based on regular pokeemerald, can I use pokeemerald-expansion?
-Yes! Keep in mind that we keep up with pret's documentation of pokeemerald, which means that if your project a bit old, you might get merge conflicts that you need to solve manually.
-- If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
-- Once you have your remote set up, run the command `git pull RHH master`.
-
-With this, you'll get the latest version of pokeemerald-expansion, plus a couple of bugfixes that haven't yet been released into the next patch version :)
 
 ## Documentation
 [Please click here to visit our documentation page.](https://rh-hideout.github.io/pokeemerald-expansion/)
 
-## **How do I update my version of pokeemerald-expansion?**
+## **How do I update pokeemerald-expansion?**
 - If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
 - Check your current version.
     - You can check in the debug menu's `Utilities -> Expansion Version` option.
@@ -41,8 +28,7 @@ With this, you'll get the latest version of pokeemerald-expansion, plus a couple
 
 ### Please consider crediting the entire [list of contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits) in your project, as they have all worked hard to develop this project :)
 
-## Who maintains the project?
-The project was originally started by DizzyEgg alongside other contributors. Now it is maintained by a team in the ROM Hacking Hideout's community called the "Expansion Senate". ROM Hacking Hideout (RHH for short) is a Discord-based ROM hacking community specialized in Pokémon romhacks. A lot of the discussion in regards of the development of the project happens there.
+The project is maintained by a team in the ROM Hacking Hideout's community called the "Expansion Senate". ROM Hacking Hideout (RHH for short) is a Discord-based ROM hacking community specialized in Pokémon romhacks. A lot of the discussion in regards of the development of the project happens there.
 
 [Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
 
@@ -53,7 +39,7 @@ Please submit any issues with the project [here](https://github.com/rh-hideout/p
 Yes! Contributions are welcome via Pull Requests and they will be reviewed by maintainers in due time.
 Also, *please follow the Pull Request template and feel free to discuss how the reviews are being handled. **Communication is key!***  Don't feel discouraged if we take a bit to review your PR, we'll get to it.
 
-## What features are included?
+## Included features
 - ***IMPORTANT*❗❗ Read through these to learn what features you can toggle**:
     - [Battle configurations](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/battle.h)
     - [Pokémon configurations](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/pokemon.h)
